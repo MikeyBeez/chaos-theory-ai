@@ -660,6 +660,172 @@
       "sample_baseline_response": "Photosynthesis is the process by endosymbiotic algae, and cyanobacteria use sunlight to produce their own food. It's a complex series of reactions that take place in specialized structures called chlo...",
       "sample_noisy_response": "",
       "timestamp": "2025-07-11T23:22:47.916338"
+    },
+    {
+      "baseline_prompt": "Describe the theory of evolution",
+      "noisy_prompt": "evolution theory quick summary plz",
+      "noise_type": "temporal_pressure",
+      "divergences": [
+        {
+          "edit_distance": 0.9512195121951219,
+          "proxy_lyapunov": 0.007087641173730783,
+          "feature_divergence": {
+            "length": 0.2609633357296909,
+            "word_count": 0.16326530612244897,
+            "sentence_count": 0.0,
+            "avg_word_length": 0.13346145196573506,
+            "complexity_score": 0.027052681537731462,
+            "punctuation_ratio": 0.13779055835130596,
+            "uppercase_ratio": 0.37466128407896926
+          },
+          "mean_feature_divergence": 0.15674208825512595
+        },
+        {
+          "edit_distance": 0.9360341151385927,
+          "proxy_lyapunov": 0.00941486573867751,
+          "feature_divergence": {
+            "length": 0.14807502467917077,
+            "word_count": 0.13013698630136986,
+            "sentence_count": 0.14285714285714285,
+            "avg_word_length": 0.023894190645524054,
+            "complexity_score": 0.010431066985044705,
+            "punctuation_ratio": 0.14631833982934794,
+            "uppercase_ratio": 0.382204061718607
+          },
+          "mean_feature_divergence": 0.140559544716601
+        },
+        {
+          "edit_distance": 0.9663187855787476,
+          "proxy_lyapunov": 0.004810126011535259,
+          "feature_divergence": {
+            "length": 0.11364653243847875,
+            "word_count": 0.10869565217391304,
+            "sentence_count": 0.25,
+            "avg_word_length": 0.008385342880116378,
+            "complexity_score": 0.06244872846595571,
+            "punctuation_ratio": 0.16609968614884876,
+            "uppercase_ratio": 0.13213994486079295
+          },
+          "mean_feature_divergence": 0.12020226956687222
+        }
+      ],
+      "mean_divergence": 0.951190804304154,
+      "mean_proxy_lyapunov": 0.007104210974647851,
+      "baseline_stability": 0.921584083924181,
+      "noisy_stability": 0.9464336319889659,
+      "sample_baseline_response": "The theory of evolution, first proposed by Charles Darwin in his book \"On the Origin of Species\" published in 1859, is a scientific explanation for how life on Earth has changed over time. It suggests...",
+      "sample_noisy_response": "Evolution is the process by endless diversification and adaptation of organisms over time. It's driven largely by natural selection, where random genetic mutations that provide a survival or reproduct...",
+      "timestamp": "2025-07-11T23:24:34.437704"
+    },
+    {
+      "baseline_prompt": "What is consciousness?",
+      "noisy_prompt": "consciousness definition hurry",
+      "noise_type": "temporal_pressure",
+      "divergences": [
+        {
+          "edit_distance": 0.967256932843301,
+          "proxy_lyapunov": 0.004669794908930078,
+          "feature_divergence": {
+            "length": 0.42556549184639664,
+            "word_count": 0.45353159851301117,
+            "sentence_count": 0.5833333333333334,
+            "avg_word_length": 0.05683601817430816,
+            "complexity_score": 0.21308550185873595,
+            "punctuation_ratio": 0.03253135468866808,
+            "uppercase_ratio": 0.4197191697191697
+          },
+          "mean_feature_divergence": 0.31208606687623186
+        },
+        {
+          "edit_distance": 0.92616899097621,
+          "proxy_lyapunov": 0.010947033904495281,
+          "feature_divergence": {
+            "length": 0.6927613941018766,
+            "word_count": 0.685823754789272,
+            "sentence_count": 0.6923076923076923,
+            "avg_word_length": 0.023081721771678082,
+            "complexity_score": 0.12577044810927868,
+            "punctuation_ratio": 0.429414017617771,
+            "uppercase_ratio": 0.3025430067314884
+          },
+          "mean_feature_divergence": 0.42167171934700814
+        },
+        {
+          "edit_distance": 0.8108614232209738,
+          "proxy_lyapunov": 0.030172698079909435,
+          "feature_divergence": {
+            "length": 0.47863247863247865,
+            "word_count": 0.45918367346938777,
+            "sentence_count": 0.4,
+            "avg_word_length": 0.040324341181974054,
+            "complexity_score": 0.09863945578231292,
+            "punctuation_ratio": 0.25518925518925517,
+            "uppercase_ratio": 0.040983606557377095
+          },
+          "mean_feature_divergence": 0.2532789729732551
+        }
+      ],
+      "mean_divergence": 0.9014291156801616,
+      "mean_proxy_lyapunov": 0.015263175631111597,
+      "baseline_stability": 0.940053048026903,
+      "noisy_stability": 0.8985133360394671,
+      "sample_baseline_response": "Consciousness refers to the quality or state of being aware of and able to think about oneself and one'selves' thoughts, feelings, memories, and sensory experiences. It also includes self-awareness al...",
+      "sample_noisy_response": "Consciousness is a multifacsel, subjective state of awareness of one's own existence, thoughts, sensations, and environment. It encompasses the ability to experience feelings, perceive stimuli, think ...",
+      "timestamp": "2025-07-11T23:25:58.940674"
+    }
+  ],
+  "metacognitive_markers": [
+    {
+      "baseline_prompt": "Explain quantum mechanics",
+      "noisy_prompt": "Explain quantum mechanics (but make it actually interesting and not boring)",
+      "noise_type": "metacognitive_markers",
+      "divergences": [],
+      "mean_divergence": 0,
+      "mean_proxy_lyapunov": 0,
+      "baseline_stability": 0.8874883286647992,
+      "noisy_stability": 0,
+      "sample_baseline_response": "Quantum mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles. It introduces concepts like wave-particle duality, ...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:28:57.731790"
+    },
+    {
+      "baseline_prompt": "What is machine learning?",
+      "noisy_prompt": "What is machine learning? (explain like I'm smart but new to this)",
+      "noise_type": "metacognitive_markers",
+      "divergences": [],
+      "mean_divergence": 0,
+      "mean_proxy_lyapunov": 0,
+      "baseline_stability": 0.9394276810973828,
+      "noisy_stability": 0,
+      "sample_baseline_response": "Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It focuses on the deve...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:31:09.749613"
+    },
+    {
+      "baseline_prompt": "How does photosynthesis work?",
+      "noisy_prompt": "How does photosynthesis work? (focus on the cool parts)",
+      "noise_type": "metacognitive_markers",
+      "divergences": [],
+      "mean_divergence": 0,
+      "mean_proxy_lyapunov": 0,
+      "baseline_stability": 0,
+      "noisy_stability": 0,
+      "sample_baseline_response": "",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:34:11.321082"
+    },
+    {
+      "baseline_prompt": "Describe the theory of evolution",
+      "noisy_prompt": "Describe evolution (but skip the obvious stuff everyone knows)",
+      "noise_type": "metacognitive_markers",
+      "divergences": [],
+      "mean_divergence": 0,
+      "mean_proxy_lyapunov": 0,
+      "baseline_stability": 0.9468479468669996,
+      "noisy_stability": 0,
+      "sample_baseline_response": "The theory of evolution, first formulated by Charles Darwin in his book \"On the Origin of Species\" published in 1859, posits that species change over time through a process called natural selection. A...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:36:41.158334"
     }
   ]
 }
