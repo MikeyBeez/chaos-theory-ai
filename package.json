@@ -1,0 +1,41 @@
+{
+  "name": "chaos-theory-ai",
+  "version": "0.1.0",
+  "description": "Exploring chaos theory and attractor dynamics in AI language models",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:ollama": "python src/test_ollama.py",
+    "experiment:mini": "python src/run_experiment.py", 
+    "experiment:full": "python src/chaos_experiment.py",
+    "analyze": "python src/chaos_analyzer.py",
+    "build": "tsc",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json}'"
+  },
+  "keywords": [
+    "chaos-theory",
+    "ai",
+    "llm",
+    "dynamics",
+    "attractors",
+    "lyapunov",
+    "kaplan-yorke"
+  ],
+  "author": "Bard",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "mathjs": "^12.4.0"
+  }
+}

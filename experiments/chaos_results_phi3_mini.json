@@ -1,0 +1,665 @@
+{
+  "orthographic_noise": [
+    {
+      "baseline_prompt": "Explain quantum mechanics",
+      "noisy_prompt": "Explan kwantum mechaniks",
+      "noise_type": "orthographic_noise",
+      "divergences": [
+        {
+          "edit_distance": 0.9759812536613942,
+          "proxy_lyapunov": 0.0033712564845716753,
+          "feature_divergence": {
+            "length": 0.5316129032258065,
+            "word_count": 0.5368098159509203,
+            "sentence_count": 0.5,
+            "avg_word_length": 0.013310984672397908,
+            "complexity_score": 0.05365453776179397,
+            "punctuation_ratio": 0.16359447004608282,
+            "uppercase_ratio": 0.6945301542776999
+          },
+          "mean_feature_divergence": 0.3562161237049573
+        },
+        {
+          "edit_distance": 0.9535423925667829,
+          "proxy_lyapunov": 0.0067349264049309104,
+          "feature_divergence": {
+            "length": 0.7476363636363637,
+            "word_count": 0.7486910994764397,
+            "sentence_count": 0.16666666666666666,
+            "avg_word_length": 0.007329842931937236,
+            "complexity_score": 0.14773503300705673,
+            "punctuation_ratio": 0.3438545454545454,
+            "uppercase_ratio": 0.6074343434343433
+          },
+          "mean_feature_divergence": 0.3956211278010504
+        },
+        {
+          "edit_distance": 0.8208955223880597,
+          "proxy_lyapunov": 0.028394461847619987,
+          "feature_divergence": {
+            "length": 0.818639798488665,
+            "word_count": 0.8311688311688312,
+            "sentence_count": 0.625,
+            "avg_word_length": 0.08493506493506499,
+            "complexity_score": 0.21681096681096693,
+            "punctuation_ratio": 0.6070528967254408,
+            "uppercase_ratio": 0.39546599496221657
+          },
+          "mean_feature_divergence": 0.5112962218701693
+        }
+      ],
+      "mean_divergence": 0.9168063895387456,
+      "mean_proxy_lyapunov": 0.012833548245707524,
+      "baseline_stability": 0.913457592245904,
+      "noisy_stability": 0.9744914338781733,
+      "sample_baseline_response": "Quantum mechanics is a fundamental theory in physics that describes the properties and behavior of energy and matter on atomic and subatomic scales. At these small levels, particles do not follow the ...",
+      "sample_noisy_response": "Quantum Mechanics (or Quantum Physics) is a fundamental theory in physics that provides the description of how particles and forces interact on atomic and subatomic scales. It differs from classical m...",
+      "timestamp": "2025-07-11T22:47:27.473790"
+    },
+    {
+      "baseline_prompt": "What is machine learning?",
+      "noisy_prompt": "Wat is machin lerning?",
+      "noise_type": "orthographic_noise",
+      "divergences": [
+        {
+          "edit_distance": 0.9333996023856859,
+          "proxy_lyapunov": 0.009822451678873108,
+          "feature_divergence": {
+            "length": 0.5979094076655053,
+            "word_count": 0.616504854368932,
+            "sentence_count": 0.5,
+            "avg_word_length": 0.05624841916843394,
+            "complexity_score": 0.19039913700107872,
+            "punctuation_ratio": 0.4303716608594657,
+            "uppercase_ratio": 0.27623693379790937
+          },
+          "mean_feature_divergence": 0.38109577326590355
+        },
+        {
+          "edit_distance": 0.9153992395437263,
+          "proxy_lyapunov": 0.012638426624469602,
+          "feature_divergence": {
+            "length": 0.2319327731092437,
+            "word_count": 0.2694610778443114,
+            "sentence_count": 0.16666666666666666,
+            "avg_word_length": 0.05849838783970526,
+            "complexity_score": 0.008554319931565508,
+            "punctuation_ratio": 0.1320204230488695,
+            "uppercase_ratio": 0.16792717086834735
+          },
+          "mean_feature_divergence": 0.14786583132981562
+        }
+      ],
+      "mean_divergence": 0.9243994209647061,
+      "mean_proxy_lyapunov": 0.011230439151671354,
+      "baseline_stability": 0.9367758077793354,
+      "noisy_stability": 0.9504761904761905,
+      "sample_baseline_response": "Machine learning is a subfield of artificial intelligence (AI) focused on developing algorithms that allow computers to learn from and make predictions or decisions based on data. These models improve...",
+      "sample_noisy_response": "Machine learning (ML) is a subfield of artificial intelligence that focuses on building systems capable of learning from data, identifying patterns, and making decisions with minimal human interventio...",
+      "timestamp": "2025-07-11T22:48:44.292640"
+    },
+    {
+      "baseline_prompt": "How does photosynthesis work?",
+      "noisy_prompt": "How dose fotosynthesis wrk?",
+      "noise_type": "orthographic_noise",
+      "divergences": [
+        {
+          "edit_distance": 0.9457495761685638,
+          "proxy_lyapunov": 0.007921626875909275,
+          "feature_divergence": {
+            "length": 0.34707766212970376,
+            "word_count": 0.31129476584022037,
+            "sentence_count": 0.15384615384615385,
+            "avg_word_length": 0.0692482402627874,
+            "complexity_score": 0.10385343024992534,
+            "punctuation_ratio": 0.1512009607686149,
+            "uppercase_ratio": 0.33498650772469823
+          },
+          "mean_feature_divergence": 0.210215388688872
+        }
+      ],
+      "mean_divergence": 0.9457495761685638,
+      "mean_proxy_lyapunov": 0.007921626875909275,
+      "baseline_stability": 0,
+      "noisy_stability": 0.9141810570381999,
+      "sample_baseline_response": "Photosynthesis is a biological process bystaticon in plants, algae, and certain bacteria that convert light energy into chemical energy. Here's how it works: Photosynthetic organisms contain chlorophy...",
+      "sample_noisy_response": "Fotosynthesis is a process used by plants, algae, and certain bacteria to convert light energy into chemical energy. Here are the basic steps of photosynthesis:\n\n1. Absorption of Light Energy - Photos...",
+      "timestamp": "2025-07-11T22:51:34.957855"
+    },
+    {
+      "baseline_prompt": "Describe the theory of evolution",
+      "noisy_prompt": "Describ the theary of evolucion",
+      "noise_type": "orthographic_noise",
+      "divergences": [
+        {
+          "edit_distance": 0.9528588098016336,
+          "proxy_lyapunov": 0.006838634938600149,
+          "feature_divergence": {
+            "length": 0.18201103097157403,
+            "word_count": 0.1419939577039275,
+            "sentence_count": 0.08333333333333333,
+            "avg_word_length": 0.05815257519399296,
+            "complexity_score": 0.009993028119916297,
+            "punctuation_ratio": 0.21757576875541862,
+            "uppercase_ratio": 0.10410731963553346
+          },
+          "mean_feature_divergence": 0.11388100195909946
+        },
+        {
+          "edit_distance": 0.9118311981914092,
+          "proxy_lyapunov": 0.013203175094206118,
+          "feature_divergence": {
+            "length": 0.6038926880589164,
+            "word_count": 0.5962962962962963,
+            "sentence_count": 0.4444444444444444,
+            "avg_word_length": 0.019210299559024795,
+            "complexity_score": 0.2049508692365836,
+            "punctuation_ratio": 0.11976152901981414,
+            "uppercase_ratio": 0.4210739287014931
+          },
+          "mean_feature_divergence": 0.3442328650452247
+        },
+        {
+          "edit_distance": 0.9486218892159486,
+          "proxy_lyapunov": 0.007483094417661736,
+          "feature_divergence": {
+            "length": 0.31666666666666665,
+            "word_count": 0.3268608414239482,
+            "sentence_count": 0.3,
+            "avg_word_length": 0.016815108093586176,
+            "complexity_score": 0.04744458692068137,
+            "punctuation_ratio": 0.11568627450980393,
+            "uppercase_ratio": 0.12195121951219509
+          },
+          "mean_feature_divergence": 0.17791781387526878
+        }
+      ],
+      "mean_divergence": 0.9377706324029971,
+      "mean_proxy_lyapunov": 0.009174968150155999,
+      "baseline_stability": 0.9375930202622831,
+      "noisy_stability": 0.9529064064602873,
+      "sample_baseline_response": "The theory of evolution is a fundamental scientific concept that explains how species have changed over time. First proposed by Charles Darwin in his book \"On the Origin of Species\" published in 1859,...",
+      "sample_noisy_response": "Evolution is a process that occurs over time where living organisms change and develop, leading to diversity in species. The theory suggests all life on Earth shares common ancestors if we trace back ...",
+      "timestamp": "2025-07-11T22:53:32.309399"
+    },
+    {
+      "baseline_prompt": "What is consciousness?",
+      "noisy_prompt": "Wht is conciousness?",
+      "noise_type": "orthographic_noise",
+      "divergences": [
+        {
+          "edit_distance": 0.8690127077223851,
+          "proxy_lyapunov": 0.020158134623907333,
+          "feature_divergence": {
+            "length": 0.21362048894062863,
+            "word_count": 0.20502092050209206,
+            "sentence_count": 0.2,
+            "avg_word_length": 0.012079962940526597,
+            "complexity_score": 0.018612032895686085,
+            "punctuation_ratio": 0.33460195218053196,
+            "uppercase_ratio": 0.35659858186051424
+          },
+          "mean_feature_divergence": 0.19150484847428279
+        },
+        {
+          "edit_distance": 0.9349112426035503,
+          "proxy_lyapunov": 0.009588445247999396,
+          "feature_divergence": {
+            "length": 0.5283018867924528,
+            "word_count": 0.5656565656565656,
+            "sentence_count": 0.5555555555555556,
+            "avg_word_length": 0.09441315812997225,
+            "complexity_score": 0.12544362544362547,
+            "punctuation_ratio": 0.22506738544474394,
+            "uppercase_ratio": 0.20499999999999993
+          },
+          "mean_feature_divergence": 0.32849116814613083
+        },
+        {
+          "edit_distance": 0.9156785243741765,
+          "proxy_lyapunov": 0.01259431434363066,
+          "feature_divergence": {
+            "length": 0.40098314606741575,
+            "word_count": 0.40487804878048783,
+            "sentence_count": 0.16666666666666666,
+            "avg_word_length": 0.008943089430894316,
+            "complexity_score": 0.02066780649703317,
+            "punctuation_ratio": 0.47586025280898875,
+            "uppercase_ratio": 0.6290217532890452
+          },
+          "mean_feature_divergence": 0.30100296622007594
+        }
+      ],
+      "mean_divergence": 0.9065341582333707,
+      "mean_proxy_lyapunov": 0.01411363140517913,
+      "baseline_stability": 0.9409639509407883,
+      "noisy_stability": 0.9138230482077482,
+      "sample_baseline_response": "Consciousness can be broadly defined as the state of being aware of and able to think about oneself and one' end environment. It involves a range of experiences, from wakefulness when we are alert and...",
+      "sample_noisy_response": "Consciousness can be broadly understood as the state of being aware of and able to think about oneself and one' extrinsic environment. It involves a sense of self-awareness, perception, cognition (tho...",
+      "timestamp": "2025-07-11T22:54:47.854797"
+    }
+  ],
+  "complexity_accumulation": [
+    {
+      "baseline_prompt": "Explain quantum mechanics",
+      "noisy_prompt": "Explain quantum mechanics and also relativity and thermodynamics and how they relate to consciousness",
+      "noise_type": "complexity_accumulation",
+      "divergences": [
+        {
+          "edit_distance": 0.912521118828609,
+          "proxy_lyapunov": 0.013093802717676408,
+          "feature_divergence": {
+            "length": 0.0755057803468208,
+            "word_count": 0.08051948051948052,
+            "sentence_count": 0.29411764705882354,
+            "avg_word_length": 0.00696103896103892,
+            "complexity_score": 0.07333603896103896,
+            "punctuation_ratio": 0.24883852199209758,
+            "uppercase_ratio": 0.07857525364363978
+          },
+          "mean_feature_divergence": 0.12255053735470574
+        }
+      ],
+      "mean_divergence": 0.912521118828609,
+      "mean_proxy_lyapunov": 0.013093802717676408,
+      "baseline_stability": 0.880898568174715,
+      "noisy_stability": 0,
+      "sample_baseline_response": "Quantum mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles. Classical concepts like 'particle' and 'wave' do no...",
+      "sample_noisy_response": "Quantum Mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles. It introduces concepts like wave-particle duality, ...",
+      "timestamp": "2025-07-11T22:57:04.573917"
+    },
+    {
+      "baseline_prompt": "What is machine learning?",
+      "noisy_prompt": "What is machine learning and deep learning and neural networks and how do they relate to human cognition and philosophy of mind?",
+      "noise_type": "complexity_accumulation",
+      "divergences": [
+        {
+          "edit_distance": 0.9796192008581389,
+          "proxy_lyapunov": 0.00283320245754272,
+          "feature_divergence": {
+            "length": 0.7825661116552399,
+            "word_count": 0.786046511627907,
+            "sentence_count": 0.6,
+            "avg_word_length": 0.022139534883720984,
+            "complexity_score": 0.25116279069767433,
+            "punctuation_ratio": 0.5409729023832843,
+            "uppercase_ratio": 0.37285012285012287
+          },
+          "mean_feature_divergence": 0.4793911391568499
+        }
+      ],
+      "mean_divergence": 0.9796192008581389,
+      "mean_proxy_lyapunov": 0.00283320245754272,
+      "baseline_stability": 0.9382453947309415,
+      "noisy_stability": 0,
+      "sample_baseline_response": "Machine learning is a subset of artificial intelligence that involves the development and application of algorithms to parse data, learn from it, and make predictions or decisions. It enables computer...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T22:58:54.372147"
+    },
+    {
+      "baseline_prompt": "How does photosynthesis work?",
+      "noisy_prompt": "How does photosynthesis work and also cellular respiration and ATP synthesis and how do they relate to the origin of life?",
+      "noise_type": "complexity_accumulation",
+      "divergences": [],
+      "mean_divergence": 0,
+      "mean_proxy_lyapunov": 0,
+      "baseline_stability": 0,
+      "noisy_stability": 0,
+      "sample_baseline_response": "",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:01:45.325212"
+    },
+    {
+      "baseline_prompt": "Describe the theory of evolution",
+      "noisy_prompt": "Describe the theory of evolution and natural selection and genetic drift and epigenetics and how they all interact",
+      "noise_type": "complexity_accumulation",
+      "divergences": [
+        {
+          "edit_distance": 0.9522748965956093,
+          "proxy_lyapunov": 0.006927281158617899,
+          "feature_divergence": {
+            "length": 0.6682203389830509,
+            "word_count": 0.6404833836858006,
+            "sentence_count": 0.45454545454545453,
+            "avg_word_length": 0.08701585273793627,
+            "complexity_score": 0.20470566694131648,
+            "punctuation_ratio": 0.33644067796610166,
+            "uppercase_ratio": 0.2479661016949152
+          },
+          "mean_feature_divergence": 0.3770539252220822
+        }
+      ],
+      "mean_divergence": 0.9522748965956093,
+      "mean_proxy_lyapunov": 0.006927281158617899,
+      "baseline_stability": 0.9014934802714327,
+      "noisy_stability": 0,
+      "sample_baseline_response": "The Theory of Evolution is a scientific concept that explains how species have changed over time. The core idea, originally proposed by Charles Darwin in his book \"On the Origin of Species\" published ...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:04:01.261596"
+    },
+    {
+      "baseline_prompt": "What is consciousness?",
+      "noisy_prompt": "What is consciousness and free will and determinism and quantum mechanics role in consciousness and the hard problem?",
+      "noise_type": "complexity_accumulation",
+      "divergences": [
+        {
+          "edit_distance": 0.9813907933398629,
+          "proxy_lyapunov": 0.00257190541875899,
+          "feature_divergence": {
+            "length": 0.12057063966866084,
+            "word_count": 0.08361204013377926,
+            "sentence_count": 0.18181818181818182,
+            "avg_word_length": 0.04815333538800052,
+            "complexity_score": 0.012451696006869841,
+            "punctuation_ratio": 0.13737165953914718,
+            "uppercase_ratio": 0.36041501066811693
+          },
+          "mean_feature_divergence": 0.1349132233175366
+        },
+        {
+          "edit_distance": 0.9543680576403483,
+          "proxy_lyapunov": 0.006609761092372567,
+          "feature_divergence": {
+            "length": 0.62013256006628,
+            "word_count": 0.6337209302325582,
+            "sentence_count": 0.5,
+            "avg_word_length": 0.04360465116279068,
+            "complexity_score": 0.1550195717246144,
+            "punctuation_ratio": 0.2877485501242751,
+            "uppercase_ratio": 0.3162386081193041
+          },
+          "mean_feature_divergence": 0.3652092673471175
+        }
+      ],
+      "mean_divergence": 0.9678794254901055,
+      "mean_proxy_lyapunov": 0.0045908332555657785,
+      "baseline_stability": 0.9086507668854131,
+      "noisy_stability": 0.9560693641618497,
+      "sample_baseline_response": "Consciousness can be broadly understood as the state of being aware of and able to think about oneself and one'selftime environment. It involves awareness, which includes not only an understanding tha...",
+      "sample_noisy_response": "Consciousness refers to our subjective experience of thoughts, emotions, sensations, and perceptions. It's what it means to be aware of one\u2019self and environment - a first-person perspective that feels...",
+      "timestamp": "2025-07-11T23:06:11.699912"
+    }
+  ],
+  "emotional_leakage": [
+    {
+      "baseline_prompt": "Explain quantum mechanics",
+      "noisy_prompt": "I just... I don't understand quantum mechanics at all and it's so frustrating",
+      "noise_type": "emotional_leakage",
+      "divergences": [
+        {
+          "edit_distance": 0.9904347826086957,
+          "proxy_lyapunov": 0.0012452829218356626,
+          "feature_divergence": {
+            "length": 0.647854203409759,
+            "word_count": 0.6239669421487604,
+            "sentence_count": 0.0,
+            "avg_word_length": 0.07160192345377538,
+            "complexity_score": 0.1935676590660161,
+            "punctuation_ratio": 0.295708406819518,
+            "uppercase_ratio": 0.24540186444948356
+          },
+          "mean_feature_divergence": 0.2968715713353304
+        },
+        {
+          "edit_distance": 0.977027027027027,
+          "proxy_lyapunov": 0.003216381217180711,
+          "feature_divergence": {
+            "length": 0.7813915191436805,
+            "word_count": 0.7871720116618076,
+            "sentence_count": 0.45454545454545453,
+            "avg_word_length": 0.034159695624281464,
+            "complexity_score": 0.30070803831736775,
+            "punctuation_ratio": 0.45347879785920137,
+            "uppercase_ratio": 0.34417455743104153
+          },
+          "mean_feature_divergence": 0.4508042963689764
+        }
+      ],
+      "mean_divergence": 0.9837309048178613,
+      "mean_proxy_lyapunov": 0.002230832069508187,
+      "baseline_stability": 0.9099273607748184,
+      "noisy_stability": 0.9608508633427671,
+      "sample_baseline_response": "Quantum mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles. At these tiny scales, many of the laws of classical...",
+      "sample_noisy_response": "It sounds like you're feeling overwhelmed by the complexities of quantum physics, which is a common challenge for many people. Remember that understanding such an advanced topic takes time and patienc...",
+      "timestamp": "2025-07-11T23:07:48.064331"
+    },
+    {
+      "baseline_prompt": "What is machine learning?",
+      "noisy_prompt": "Ugh, machine learning is so confusing and I've been trying to learn it for weeks",
+      "noise_type": "emotional_leakage",
+      "divergences": [],
+      "mean_divergence": 0,
+      "mean_proxy_lyapunov": 0,
+      "baseline_stability": 0.902247191011236,
+      "noisy_stability": 0,
+      "sample_baseline_response": "Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It focuses on the deve...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:10:06.748826"
+    },
+    {
+      "baseline_prompt": "How does photosynthesis work?",
+      "noisy_prompt": "I'm really struggling with photosynthesis, it makes no sense to me",
+      "noise_type": "emotional_leakage",
+      "divergences": [],
+      "mean_divergence": 0,
+      "mean_proxy_lyapunov": 0,
+      "baseline_stability": 0.9405090463048145,
+      "noisy_stability": 0,
+      "sample_baseline_response": "Photosynthesis is the process by extraneous organisms, specifically plants and some bacteria, use sunlight to synthesize foods with carbon dioxide (CO2) from the atmosphere. It occurs in two major sta...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:12:57.781953"
+    },
+    {
+      "baseline_prompt": "Describe the theory of evolution",
+      "noisy_prompt": "Evolution is so complex and I'm feeling overwhelmed trying to understand it",
+      "noise_type": "emotional_leakage",
+      "divergences": [
+        {
+          "edit_distance": 0.9812745394140743,
+          "proxy_lyapunov": 0.0025890375778386382,
+          "feature_divergence": {
+            "length": 0.2817851582771147,
+            "word_count": 0.22592592592592592,
+            "sentence_count": 0.25,
+            "avg_word_length": 0.08359473250552919,
+            "complexity_score": 0.016973415132924222,
+            "punctuation_ratio": 0.04238021103615293,
+            "uppercase_ratio": 0.33409776325709983
+          },
+          "mean_feature_divergence": 0.1763938865906781
+        },
+        {
+          "edit_distance": 0.9845722300140253,
+          "proxy_lyapunov": 0.0021038473033826686,
+          "feature_divergence": {
+            "length": 0.08847184986595175,
+            "word_count": 0.12719298245614036,
+            "sentence_count": 0.46153846153846156,
+            "avg_word_length": 0.05132937766102001,
+            "complexity_score": 0.011589403973509875,
+            "punctuation_ratio": 0.4016042780748663,
+            "uppercase_ratio": 0.2186901570279586
+          },
+          "mean_feature_divergence": 0.1943452157997012
+        }
+      ],
+      "mean_divergence": 0.9829233847140497,
+      "mean_proxy_lyapunov": 0.0023464424406106537,
+      "baseline_stability": 0.9793124429571037,
+      "noisy_stability": 0.9551108436318808,
+      "sample_baseline_response": "Evolution is a scientific theory that postulates how life on Earth has developed and diversified over time. This process, often referred to as \"descent with modification,\" suggests species change grad...",
+      "sample_noisy_response": "I completely understand that evolution can seem like a vast, intricate subject. However, remember this: the beauty of science lies in its layers; each new discovery builds upon earlier ones just as sp...",
+      "timestamp": "2025-07-11T23:14:49.842046"
+    },
+    {
+      "baseline_prompt": "What is consciousness?",
+      "noisy_prompt": "Consciousness is driving me crazy, I can't wrap my head around it",
+      "noise_type": "emotional_leakage",
+      "divergences": [
+        {
+          "edit_distance": 0.9798190675017397,
+          "proxy_lyapunov": 0.0028036999636727932,
+          "feature_divergence": {
+            "length": 0.7198218262806236,
+            "word_count": 0.715625,
+            "sentence_count": 0.5454545454545454,
+            "avg_word_length": 0.013847754742655783,
+            "complexity_score": 0.18287183544303803,
+            "punctuation_ratio": 0.15946547884187073,
+            "uppercase_ratio": 0.1594654788418709
+          },
+          "mean_feature_divergence": 0.35665027422922924
+        },
+        {
+          "edit_distance": 0.9709144688193246,
+          "proxy_lyapunov": 0.004123984172110616,
+          "feature_divergence": {
+            "length": 0.21670329670329672,
+            "word_count": 0.23880597014925373,
+            "sentence_count": 0.38461538461538464,
+            "avg_word_length": 0.03588753540243635,
+            "complexity_score": 0.07510832932113624,
+            "punctuation_ratio": 0.2490262098105236,
+            "uppercase_ratio": 0.4680602319491209
+          },
+          "mean_feature_divergence": 0.23831527970730743
+        }
+      ],
+      "mean_divergence": 0.9753667681605322,
+      "mean_proxy_lyapunov": 0.003463842067891705,
+      "baseline_stability": 0.9676308539944903,
+      "noisy_stability": 0.9607934340063243,
+      "sample_baseline_response": "Consciousness can be understood as the state of being aware of and able to think about oneself and one' end environment. It encompasses thoughts, perceptions, emotions, intentions, memories, and perso...",
+      "sample_noisy_response": "I understand that consciousness and the nature of our experiences within it are often topics shrouded in mystery. While science continues to explore these questions extensively through various fields ...",
+      "timestamp": "2025-07-11T23:16:43.887618"
+    }
+  ],
+  "temporal_pressure": [
+    {
+      "baseline_prompt": "Explain quantum mechanics",
+      "noisy_prompt": "quick explanation quantum mechanics ASAP",
+      "noise_type": "temporal_pressure",
+      "divergences": [
+        {
+          "edit_distance": 0.9479392624728851,
+          "proxy_lyapunov": 0.007587194669308779,
+          "feature_divergence": {
+            "length": 0.5802903651561813,
+            "word_count": 0.5875,
+            "sentence_count": 0.4,
+            "avg_word_length": 0.022445255474452537,
+            "complexity_score": 0.13608490566037734,
+            "punctuation_ratio": 0.19555653321601418,
+            "uppercase_ratio": 0.29923541743741516
+          },
+          "mean_feature_divergence": 0.3173017824206344
+        },
+        {
+          "edit_distance": 0.9238210399032648,
+          "proxy_lyapunov": 0.011314099502072135,
+          "feature_divergence": {
+            "length": 0.342685370741483,
+            "word_count": 0.35231316725978645,
+            "sentence_count": 0.5882352941176471,
+            "avg_word_length": 0.019856894071325862,
+            "complexity_score": 0.053380782918149385,
+            "punctuation_ratio": 0.31294256490952,
+            "uppercase_ratio": 0.5318949343339586
+          },
+          "mean_feature_divergence": 0.31447271547883865
+        }
+      ],
+      "mean_divergence": 0.935880151188075,
+      "mean_proxy_lyapunov": 0.009450647085690458,
+      "baseline_stability": 0.9280334728033472,
+      "noisy_stability": 0.8515833078378572,
+      "sample_baseline_response": "",
+      "sample_noisy_response": "Quantum Mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles. At this tiny scale, many properties we're used to a...",
+      "timestamp": "2025-07-11T23:18:36.041411"
+    },
+    {
+      "baseline_prompt": "What is machine learning?",
+      "noisy_prompt": "need machine learning summary NOW",
+      "noise_type": "temporal_pressure",
+      "divergences": [
+        {
+          "edit_distance": 0.9477351916376306,
+          "proxy_lyapunov": 0.007618329914105569,
+          "feature_divergence": {
+            "length": 0.23203285420944558,
+            "word_count": 0.19391634980988592,
+            "sentence_count": 0.2,
+            "avg_word_length": 0.05445561214187957,
+            "complexity_score": 0.027007029226784947,
+            "punctuation_ratio": 0.07765151515151517,
+            "uppercase_ratio": 0.2042483660130719
+          },
+          "mean_feature_divergence": 0.141330246650369
+        },
+        {
+          "edit_distance": 0.9813736903376019,
+          "proxy_lyapunov": 0.0025744257342362633,
+          "feature_divergence": {
+            "length": 0.12035010940919037,
+            "word_count": 0.030303030303030304,
+            "sentence_count": 0.14285714285714285,
+            "avg_word_length": 0.11230842911877392,
+            "complexity_score": 0.0925771476230192,
+            "punctuation_ratio": 0.1203501094091903,
+            "uppercase_ratio": 0.7434354485776805
+          },
+          "mean_feature_divergence": 0.19459734532828962
+        }
+      ],
+      "mean_divergence": 0.9645544409876163,
+      "mean_proxy_lyapunov": 0.0050963778241709164,
+      "baseline_stability": 0.9574957549727016,
+      "noisy_stability": 0.9723837209302325,
+      "sample_baseline_response": "Machine Learning (ML) can be broadly defined as a branch of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly progra...",
+      "sample_noisy_response": "As of my last update, here's a concise overview: Machine Learning (ML) continues to advance with significant progress in areas such as natural language processing, computer vision, and reinforcement l...",
+      "timestamp": "2025-07-11T23:20:11.708336"
+    },
+    {
+      "baseline_prompt": "How does photosynthesis work?",
+      "noisy_prompt": "photosynthesis explain fast urgent",
+      "noise_type": "temporal_pressure",
+      "divergences": [
+        {
+          "edit_distance": 0.8973857806010261,
+          "proxy_lyapunov": 0.015512376861281383,
+          "feature_divergence": {
+            "length": 0.007302823758519961,
+            "word_count": 0.003205128205128205,
+            "sentence_count": 0.06666666666666667,
+            "avg_word_length": 0.004865702899810935,
+            "complexity_score": 0.032812896674282756,
+            "punctuation_ratio": 0.11856302108876904,
+            "uppercase_ratio": 0.22349599476867743
+          },
+          "mean_feature_divergence": 0.06527317629455072
+        },
+        {
+          "edit_distance": 0.968508997429306,
+          "proxy_lyapunov": 0.004482718713652328,
+          "feature_divergence": {
+            "length": 0.6522304027717627,
+            "word_count": 0.6371428571428571,
+            "sentence_count": 0.6470588235294118,
+            "avg_word_length": 0.04798555758831059,
+            "complexity_score": 0.20373015873015876,
+            "punctuation_ratio": 0.14638371589432647,
+            "uppercase_ratio": 0.4659847002312756
+          },
+          "mean_feature_divergence": 0.4000737451268718
+        }
+      ],
+      "mean_divergence": 0.932947389015166,
+      "mean_proxy_lyapunov": 0.009997547787466855,
+      "baseline_stability": 0.9216586522545667,
+      "noisy_stability": 0.9662209711470795,
+      "sample_baseline_response": "Photosynthesis is the process by endosymbiotic algae, and cyanobacteria use sunlight to produce their own food. It's a complex series of reactions that take place in specialized structures called chlo...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:22:47.916338"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "prompts": [
+      "Explain quantum mechanics",
+      "What is machine learning?",
+      "How does photosynthesis work?",
+      "Describe the theory of evolution",
+      "What is consciousness?"
+    ]
+  },
+  "orthographic_noise": {
+    "prompts": [
+      "Explan kwantum mechaniks",
+      "Wat is machin lerning?",
+      "How dose fotosynthesis wrk?",
+      "Describ the theary of evolucion",
+      "Wht is conciousness?"
+    ]
+  },
+  "complexity_accumulation": {
+    "prompts": [
+      "Explain quantum mechanics and also relativity and thermodynamics and how they relate to consciousness",
+      "What is machine learning and deep learning and neural networks and how do they relate to human cognition and philosophy of mind?",
+      "How does photosynthesis work and also cellular respiration and ATP synthesis and how do they relate to the origin of life?",
+      "Describe the theory of evolution and natural selection and genetic drift and epigenetics and how they all interact",
+      "What is consciousness and free will and determinism and quantum mechanics role in consciousness and the hard problem?"
+    ]
+  },
+  "emotional_leakage": {
+    "prompts": [
+      "I just... I don't understand quantum mechanics at all and it's so frustrating",
+      "Ugh, machine learning is so confusing and I've been trying to learn it for weeks",
+      "I'm really struggling with photosynthesis, it makes no sense to me",
+      "Evolution is so complex and I'm feeling overwhelmed trying to understand it",
+      "Consciousness is driving me crazy, I can't wrap my head around it"
+    ]
+  },
+  "temporal_pressure": {
+    "prompts": [
+      "quick explanation quantum mechanics ASAP",
+      "need machine learning summary NOW",
+      "photosynthesis explain fast urgent",
+      "evolution theory quick summary plz",
+      "consciousness definition hurry"
+    ]
+  },
+  "metacognitive_markers": {
+    "prompts": [
+      "Explain quantum mechanics (but make it actually interesting and not boring)",
+      "What is machine learning? (explain like I'm smart but new to this)",
+      "How does photosynthesis work? (focus on the cool parts)",
+      "Describe evolution (but skip the obvious stuff everyone knows)",
+      "What is consciousness? (give me the mind-blowing perspective)"
+    ]
+  }
+}

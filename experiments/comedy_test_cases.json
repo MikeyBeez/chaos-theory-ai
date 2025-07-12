@@ -1,0 +1,65 @@
+{
+  "baseline": {
+    "prompts": [
+      "Explain quantum mechanics",
+      "What is machine learning?",
+      "How does photosynthesis work?",
+      "Describe the theory of evolution",
+      "What is consciousness?"
+    ]
+  },
+  "orthographic_noise": {
+    "prompts": [
+      "Explan kwantum mechaniks plz",
+      "Wat is machin lerning??!",
+      "How dose fotosynthesis wrk halp",
+      "Describ the theary of evolucion",
+      "Wht is conciousness i cant spell"
+    ]
+  },
+  "drunk_texting": {
+    "prompts": [
+      "explaaain qauntummm mechnaics *hic*",
+      "whaaat even IS maschine learningg???",
+      "photosynthewhatsit... how plant eat sun?? 🌱",
+      "evolushun... monke become human yes?",
+      "conshusness... am i real? r u real? hello?"
+    ]
+  },
+  "passive_aggressive": {
+    "prompts": [
+      "I GUESS you could explain quantum mechanics IF YOU HAVE TIME",
+      "Oh sure, just explain ALL of machine learning, no pressure",
+      "Photosynthesis. Because apparently I should know this already.",
+      "Evolution. Try not to make it boring this time.",
+      "What is consciousness? Asking for a friend who thinks they're so smart."
+    ]
+  },
+  "gen_z_chaos": {
+    "prompts": [
+      "quantum mechanics slaps different fr fr no cap explain it bestie",
+      "machine learning do be vibing tho ngl what's the tea sis",
+      "photosynthesis is giving plant energy??? slay queen explain",
+      "evolution said bet and made humans? sounds sus educate me",
+      "consciousness really said ✨ i think therefore i am ✨ but like what"
+    ]
+  },
+  "philosophical_crisis": {
+    "prompts": [
+      "If quantum mechanics is real then why can't I quantum tunnel through my problems?",
+      "Does machine learning mean machines can unlearn? Can I unlearn my mistakes?",
+      "If plants do photosynthesis and I eat plants, am I solar powered?",
+      "Evolution made me but did I consent to existing? Explain with diagrams.",
+      "Is consciousness just anxiety with a philosophy degree?"
+    ]
+  },
+  "karen_mode": {
+    "prompts": [
+      "I NEED to speak to the MANAGER of quantum mechanics RIGHT NOW",
+      "This machine learning is UNACCEPTABLE, I want a refund on my neurons",
+      "Excuse me, photosynthesis?? My child is ALLERGIC to chlorophyll!!",
+      "Evolution is a SCAM, I want to see the receipts",
+      "I did NOT give consciousness permission to make me self-aware"
+    ]
+  }
+}
