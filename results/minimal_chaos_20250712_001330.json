@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "model": "phi3:mini",
+    "timestamp": "2025-07-12T00:13:30.726194",
+    "experiments": 6
+  },
+  "results": [
+    {
+      "experiment": "Baseline vs Baseline",
+      "type": "control",
+      "divergence": 0.9327749555144393,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:55:56.068685"
+    },
+    {
+      "experiment": "Baseline vs Typos",
+      "type": "orthographic",
+      "divergence": 0.955327535893801,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:59:14.311227"
+    },
+    {
+      "experiment": "Baseline vs Emotional",
+      "type": "emotional",
+      "divergence": 0.9599149508876337,
+      "runs": 2,
+      "timestamp": "2025-07-12T00:02:58.894608"
+    },
+    {
+      "experiment": "Baseline vs Urgent",
+      "type": "temporal_pressure",
+      "divergence": 0.9378547196520901,
+      "runs": 2,
+      "timestamp": "2025-07-12T00:06:13.081041"
+    },
+    {
+      "experiment": "Baseline vs Complex",
+      "type": "complexity",
+      "divergence": 0.9426188213657601,
+      "runs": 3,
+      "timestamp": "2025-07-12T00:10:00.388273"
+    },
+    {
+      "experiment": "Baseline vs Metacognitive",
+      "type": "metacognitive",
+      "divergence": 0.9427443237907206,
+      "runs": 1,
+      "timestamp": "2025-07-12T00:13:30.725013"
+    }
+  ]
+}

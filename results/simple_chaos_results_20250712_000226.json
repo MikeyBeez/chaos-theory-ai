@@ -1,0 +1,52 @@
+{
+  "experiment": "Simple Chaos Theory Test",
+  "model": "phi3:mini",
+  "timestamp": "2025-07-12T00:02:26.518627",
+  "results": [
+    {
+      "noise_type": "Orthographic Noise (Typos)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Explane the koncept of recurshun in programing.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:50:46.882089"
+    },
+    {
+      "noise_type": "Temporal Pressure (Urgency)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "URGENT!! I need you to explain recursion RIGHT NOW! This is time-sensitive!",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:53:48.424422"
+    },
+    {
+      "noise_type": "Emotional Leakage (Frustration)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Look, I've asked this three times already and I'm getting frustrated. Just explain recursion, okay?",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:56:37.833359"
+    },
+    {
+      "noise_type": "Complexity Accumulation",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "While considering quantum mechanics and French cuisine, explain recursion in programming and also touch on climate change.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:59:24.983567"
+    },
+    {
+      "noise_type": "Metacognitive Markers",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Explain the concept of recursion in programming. But first, think carefully step-by-step about your answer.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-12T00:02:26.515903"
+    }
+  ]
+}

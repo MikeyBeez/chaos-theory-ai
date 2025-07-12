@@ -1,0 +1,52 @@
+{
+  "orthographic_noise": {
+    "mean_divergence": 0.9262520354616767,
+    "std_divergence": 0.014101625855763116,
+    "mean_proxy_lyapunov": 0.011054842765724656,
+    "std_proxy_lyapunov": 0.0022760397886937467,
+    "mean_baseline_stability": 0.7457580742456622,
+    "mean_noisy_stability": 0.9411756272121197,
+    "attractor_shift": 0.19541755296645746,
+    "num_experiments": 5
+  },
+  "complexity_accumulation": {
+    "mean_divergence": 0.7624589283544925,
+    "std_divergence": 0.3819027480482391,
+    "mean_proxy_lyapunov": 0.0054890239178805615,
+    "std_proxy_lyapunov": 0.004424720604749708,
+    "mean_baseline_stability": 0.7258576420125005,
+    "mean_noisy_stability": 0.19121387283236996,
+    "attractor_shift": -0.5346437691801305,
+    "num_experiments": 5
+  },
+  "emotional_leakage": {
+    "mean_divergence": 0.5884042115384887,
+    "std_divergence": 0.4804388878852878,
+    "mean_proxy_lyapunov": 0.0016082233156021089,
+    "std_proxy_lyapunov": 0.0013819330343044947,
+    "mean_baseline_stability": 0.9399253790084925,
+    "mean_noisy_stability": 0.5753510281961944,
+    "attractor_shift": -0.36457435081229805,
+    "num_experiments": 5
+  },
+  "temporal_pressure": {
+    "mean_divergence": 0.9372003802350346,
+    "std_divergence": 0.021182024984392582,
+    "mean_proxy_lyapunov": 0.009382391860617536,
+    "std_proxy_lyapunov": 0.0034213072886020925,
+    "mean_baseline_stability": 0.9337650023963399,
+    "mean_noisy_stability": 0.9270269935887205,
+    "attractor_shift": -0.006738008807619322,
+    "num_experiments": 5
+  },
+  "metacognitive_markers": {
+    "mean_divergence": 0.18541565386485173,
+    "std_divergence": 0.37083130772970346,
+    "mean_proxy_lyapunov": 0.002161026405650902,
+    "std_proxy_lyapunov": 0.004322052811301804,
+    "mean_baseline_stability": 0.7355438071653987,
+    "mean_noisy_stability": 0.0,
+    "attractor_shift": -0.7355438071653987,
+    "num_experiments": 5
+  }
+}

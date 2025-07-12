@@ -1,0 +1,52 @@
+{
+  "experiment": "Simple Chaos Theory Test",
+  "model": "phi3:mini",
+  "timestamp": "2025-07-11T23:52:36.400686",
+  "results": [
+    {
+      "noise_type": "Orthographic Noise (Typos)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Explane the koncept of recurshun in programing.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:41:55.127295"
+    },
+    {
+      "noise_type": "Temporal Pressure (Urgency)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "URGENT!! I need you to explain recursion RIGHT NOW! This is time-sensitive!",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:44:50.644515"
+    },
+    {
+      "noise_type": "Emotional Leakage (Frustration)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Look, I've asked this three times already and I'm getting frustrated. Just explain recursion, okay?",
+      "divergence": 0.9542245307507283,
+      "divergence_percentage": 95.42245307507284,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:46:43.984017"
+    },
+    {
+      "noise_type": "Complexity Accumulation",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "While considering quantum mechanics and French cuisine, explain recursion in programming and also touch on climate change.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:49:35.667395"
+    },
+    {
+      "noise_type": "Metacognitive Markers",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Explain the concept of recursion in programming. But first, think carefully step-by-step about your answer.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:52:36.397024"
+    }
+  ]
+}

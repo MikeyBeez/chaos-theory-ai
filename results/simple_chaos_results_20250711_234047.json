@@ -1,0 +1,52 @@
+{
+  "experiment": "Simple Chaos Theory Test",
+  "model": "phi3:mini",
+  "timestamp": "2025-07-11T23:40:47.426291",
+  "results": [
+    {
+      "noise_type": "Orthographic Noise (Typos)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Explane the koncept of recurshun in programing.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:29:31.015820"
+    },
+    {
+      "noise_type": "Temporal Pressure (Urgency)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "URGENT!! I need you to explain recursion RIGHT NOW! This is time-sensitive!",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:32:23.353728"
+    },
+    {
+      "noise_type": "Emotional Leakage (Frustration)",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Look, I've asked this three times already and I'm getting frustrated. Just explain recursion, okay?",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:34:44.336413"
+    },
+    {
+      "noise_type": "Complexity Accumulation",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "While considering quantum mechanics and French cuisine, explain recursion in programming and also touch on climate change.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:37:45.894725"
+    },
+    {
+      "noise_type": "Metacognitive Markers",
+      "baseline_prompt": "Explain the concept of recursion in programming.",
+      "noisy_prompt": "Explain the concept of recursion in programming. But first, think carefully step-by-step about your answer.",
+      "divergence": 0,
+      "divergence_percentage": 0,
+      "runs": 3,
+      "timestamp": "2025-07-11T23:40:47.423576"
+    }
+  ]
+}

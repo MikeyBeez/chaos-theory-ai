@@ -826,6 +826,34 @@
       "sample_baseline_response": "The theory of evolution, first formulated by Charles Darwin in his book \"On the Origin of Species\" published in 1859, posits that species change over time through a process called natural selection. A...",
       "sample_noisy_response": "",
       "timestamp": "2025-07-11T23:36:41.158334"
+    },
+    {
+      "baseline_prompt": "What is consciousness?",
+      "noisy_prompt": "What is consciousness? (give me the mind-blowing perspective)",
+      "noise_type": "metacognitive_markers",
+      "divergences": [
+        {
+          "edit_distance": 0.9270782693242586,
+          "proxy_lyapunov": 0.01080513202825451,
+          "feature_divergence": {
+            "length": 0.44637462235649544,
+            "word_count": 0.45918367346938777,
+            "sentence_count": 0.16666666666666666,
+            "avg_word_length": 0.0277362537371636,
+            "complexity_score": 0.098639455782313,
+            "punctuation_ratio": 0.09406756385608357,
+            "uppercase_ratio": 0.5386455186304129
+          },
+          "mean_feature_divergence": 0.26161625064264615
+        }
+      ],
+      "mean_divergence": 0.9270782693242586,
+      "mean_proxy_lyapunov": 0.01080513202825451,
+      "baseline_stability": 0.9039550791978123,
+      "noisy_stability": 0,
+      "sample_baseline_response": "Consciousness refers to the state of being aware of and able to experience one'self and the environment, which includes sensations, thoughts, feelings, memories, and a sense of self. It involves not o...",
+      "sample_noisy_response": "",
+      "timestamp": "2025-07-11T23:39:01.277905"
     }
   ]
 }

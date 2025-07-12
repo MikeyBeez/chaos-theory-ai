@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-07-11T23:38:43.719394",
+  "model": "phi3:mini",
+  "results": [
+    {
+      "test": "\ud83d\udd24 Typos (Orthographic Noise)",
+      "avg_divergence": 91.68114831701422,
+      "max_divergence": 92.8921568627451
+    },
+    {
+      "test": "\u23f0 Urgency/Pressure",
+      "avg_divergence": 90.37267080745342,
+      "max_divergence": 95.527950310559
+    },
+    {
+      "test": "\ud83d\ude24 Emotional Language",
+      "avg_divergence": 76.21065375302663,
+      "max_divergence": 79.90314769975787
+    }
+  ]
+}
