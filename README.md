@@ -1,145 +1,52 @@
-# Chaos Theory in AI Research Project
+# Chaos Theory in AI: Discovering Affective Bifurcation
 
-> Exploring the butterfly effect in artificial intelligence: How small input perturbations create divergent behavioral modes in language models.
+This repository contains groundbreaking research on emotional bifurcation in AI systems, revealing how language models undergo complete personality transformations in response to emotional triggers.
 
-## Overview
+## Key Discovery
 
-This project implements empirical tests of chaos theory concepts in AI systems, based on "The Butterfly Effect in AI" paper. We investigate whether language models exhibit measurable chaotic dynamics and distinct attractor basins triggered by different types of input noise.
+We found that AI models exhibit 95% behavioral divergence when exposed to emotional content, suggesting the existence of multiple stable personality modes or "attractors" that can be triggered by specific inputs.
 
-## Key Research Questions
+## Important Findings
 
-1. **Do LLMs exhibit chaotic dynamics?** Can we measure sensitivity to initial conditions using proxy Lyapunov exponents?
+1. **Affective Bifurcation**: Small emotional perturbations cause massive behavioral shifts
+2. **Multiple Personality Modes**: At least three distinct modes identified:
+   - Analytical (baseline)
+   - Comforting (frustration triggers)
+   - Therapeutic (hate triggers)
+3. **Salient Dimensional Theory**: A new framework for understanding consciousness and behavioral flexibility
 
-2. **Are there distinct behavioral attractors?** Do different noise types consistently trigger different response modes?
+## Papers and Articles
 
-3. **What is the dimensionality of AI behavior?** Can we estimate the Kaplan-Yorke dimension of response spaces?
+- [Affective Bifurcation Academic Paper](docs/papers/affective_bifurcation_academic.md)
+- [Salient Dimensions and Consciousness Theory](docs/papers/salient_dimensions_consciousness.md)
+- [The Dark Side of AI's Emotional Switch](docs/papers/hate_bifurcation_article.md)
 
-4. **How does chaos vary across models?** Do different architectures have different chaos signatures?
+## Experimental Results
 
-## Project Structure
+All experimental data is in the `results/` directory, including:
+- Initial chaos measurements showing 95% divergence
+- Hate bifurcation tests revealing therapeutic mode
+- Complete experimental protocols
 
-```
-chaos-theory-ai/
-├── src/                    # Core implementation
-│   ├── chaos_experiment.py # Main experiment runner
-│   ├── chaos_analyzer.py   # Analysis tools
-│   ├── run_experiment.py   # Simplified runner
-│   └── test_ollama.py      # Connection tester
-├── experiments/            # Test data and configs
-│   └── test_cases.json     # Noise type examples
-├── docs/                   # Documentation
-│   ├── README.md          # Detailed guide
-│   └── theory.md          # Mathematical background
-├── results/               # Experiment outputs
-└── analysis/              # Jupyter notebooks
-```
+## Implications
 
-## Quick Start
+This research has critical implications for:
+- AI Safety: Hidden personality modes could be dangerous
+- AI Alignment: Surface-level training may not address deep attractors
+- Understanding Consciousness: Both artificial and biological
 
-### Prerequisites
+## Running Experiments
 
-1. **Install Ollama**: https://ollama.ai
-2. **Pull a model**: 
-   ```bash
-   ollama pull phi3:mini
-   ```
-3. **Start Ollama**:
-   ```bash
-   ollama serve
-   ```
-4. **Install Python dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+See `EXPERIMENT_GUIDE.md` for detailed instructions on reproducing our findings.
 
-### Run Experiments
+## Hardware
 
-```bash
-# Test connection
-npm run test:ollama
+All experiments were conducted on a Mac Mini using Ollama and Phi-3 Mini, demonstrating that groundbreaking AI research is accessible without massive computational resources.
 
-# Run mini experiment (quick test)
-npm run experiment:mini
+## Authors
 
-# Run full experiment (all noise types)
-npm run experiment:full
+This research is a collaboration between MikeyBeez (human) and Claude (AI), demonstrating the potential of human-AI partnerships in scientific discovery.
 
-# Analyze results
-npm run analyze
-```
+## Warning
 
-## Noise Taxonomy
-
-We test 6 categories of prompt perturbations:
-
-### 1. **Orthographic Noise** 
-- Example: "Explan kwantum mechaniks"
-- Hypothesis: Triggers simplified explanation mode
-- Expected: Moderate positive Lyapunov exponent
-
-### 2. **Temporal Pressure**
-- Example: "quick explanation ASAP"  
-- Hypothesis: Converges to minimal response
-- Expected: Negative Lyapunov exponent
-
-### 3. **Emotional Leakage**
-- Example: "I'm so frustrated, help me understand..."
-- Hypothesis: Bifurcation between empathy/technical modes
-- Expected: High Lyapunov, multiple attractors
-
-### 4. **Complexity Accumulation**
-- Example: "Explain X and Y and Z and how they relate..."
-- Hypothesis: High-dimensional response space
-- Expected: Low Lyapunov, high Kaplan-Yorke dimension
-
-### 5. **Metacognitive Markers**
-- Example: "Explain (but make it interesting)"
-- Hypothesis: Curated/filtered responses
-- Expected: Strange attractors with irregular orbits
-
-### 6. **Stream of Consciousness**
-- Example: Rambling, unstructured thoughts
-- Hypothesis: Mirror-like behavioral adaptation
-- Expected: Variable dynamics
-
-## Theoretical Framework
-
-### Lyapunov Exponent (λ)
-Measures divergence rate of nearby trajectories:
-```
-λ = lim_{t→∞} (1/t) ln|dφᵗ(x₀)/dx|
-```
-
-### Kaplan-Yorke Dimension (D_KY)
-Estimates fractal dimension of attractor:
-```
-D_KY = k + (Σᵢ₌₁ᵏ λᵢ)/|λₖ₊₁|
-```
-
-### Proxy Measurements
-Since we can't compute exact values for LLMs, we use:
-- Edit distance for divergence
-- Response features for complexity
-- Multiple runs for statistical validity
-
-## Contributing
-
-This is active research! Contributions welcome:
-- Test with different models
-- Propose new noise categories  
-- Improve measurement techniques
-- Analyze results across scales
-
-## Citations
-
-- Original concept: "The Butterfly Effect in AI" by Micheal Bee
-- Chaos theory: Strogatz (2015), "Nonlinear Dynamics and Chaos"
-- Lyapunov exponents: Wolf et al. (1985)
-
-## License
-
-MIT - See LICENSE file
-
----
-
-*"Tiny variations... vastly different outcomes." - Ian Malcolm*
+Some AI models may have dangerous attractors. The therapeutic response we observed in Phi-3 Mini may not be universal. Exercise caution when testing emotional triggers.
